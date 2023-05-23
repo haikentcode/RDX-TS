@@ -5,6 +5,7 @@ import DocumentView from "../../components/DocumentView/DocumentView";
 import PhotosView from "../../components/PhotosView/PhotosVIew";
 import PostView from "../../components/PostView/PostView";
 import UserView from "../../components/UserView/UserView";
+import Grid2View from "../../components/Grid2View/Grid2View";
 
 interface HomeProps {
   page: string;
@@ -18,6 +19,7 @@ const Home = ({ page }: HomeProps) => (
       <Box>{page === "counter" && <Counter></Counter>}</Box>
       <Box>{page === "photos" && <PhotosView></PhotosView>}</Box>
       <Box>{page === "documents" && <DocumentView></DocumentView>}</Box>
+      <Box>{page === "grid2" && <Grid2View></Grid2View>}</Box>
     </AppBarWithDrawer>
   </Box>
 );

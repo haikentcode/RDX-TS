@@ -24,6 +24,9 @@ const reducers = combineReducers({
   [photosApi.reducerPath]: photosApi.reducer,
 });
 
+alert(postApi.reducerPath);
+alert(photosApi.reducerPath);
+
 export const store = configureStore({
   reducer: persistReducer(persistConfig, reducers),
 

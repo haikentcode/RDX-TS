@@ -10,7 +10,7 @@ export interface IPhoto {
 }
 
 export const photosApi = createApi({
-  reducerPath: "api",
+  reducerPath: "photos",
   baseQuery: fetchBaseQuery({
     baseUrl: "https://jsonplaceholder.typicode.com/photos",
   }),

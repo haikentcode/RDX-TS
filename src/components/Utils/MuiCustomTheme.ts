@@ -90,6 +90,12 @@ export const pages: Page[] = [
     link: "/documents",
     page: "documents",
   },
+
+  {
+    name: "grid2",
+    link: "/grid2",
+    page: "grid2",
+  },
 ];
 
 export const AVTTAR_BG_COLOR_DARK = "#c7bfbf";
